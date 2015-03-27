@@ -85,5 +85,10 @@ namespace TeostraTimer
                 Reset();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Pour démarrer le Timer utiliser la touche Pavé Numérique 1 et pour le reset la touche Pavé Numérique 2", "Aide", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
